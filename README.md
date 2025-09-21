@@ -9,9 +9,9 @@ This repository contains the code for the Meesho DICE Challenge 2025 - Data Scie
 
 | File/Folder                   | Description                                                        |
 |------------------------------|--------------------------------------------------------------------|
-| `review-enhancement-pipeline.ipynb`| Pipeline to process and enhance product reviews into feature-specific ratings using embeddings. |
+| `review-enhancement-pipeline.ipynb`| Pipeline to process and enhance product reviews into feature-specific ratings using MPNet Base v2 embeddings. |
 | `etl-pipeline-post-order-analysis.ipynb` | ETL pipeline focused on analyzing delays, refunds and return-related patterns.            |
-| `seller-verification-pipeline.ipynb`| Pipeline for verifying seller product images against catalog images using vision models.|
+| `seller-verification-pipeline.ipynb`| Pipeline for verifying seller product images against catalog images using Clip ViT L-14.|
 | `customer complain analysis`| Contains code for reddit scrapper and analysis on the reviews|
 
 ---
@@ -31,7 +31,8 @@ This repository contains the code for the Meesho DICE Challenge 2025 - Data Scie
 
 ### Seller Verification Pipeline
 - **Data Sources:** Images from product catalog and seller-uploaded product images.
-- **Model:** CLIP Vision Transformer (ViT) to compute similarity scores between catalog and seller images.
+- **Model:** CLIP Vision Transformer (ViT) Large to compute similarity scores between catalog and seller images.
 - **Methodology:** Products are verified based on similarity scores exceeding a threshold; otherwise flagged for manual check.
 - **Architecture Diagram:** ![seller-verification](./images/seller-verification.png)
+
 
