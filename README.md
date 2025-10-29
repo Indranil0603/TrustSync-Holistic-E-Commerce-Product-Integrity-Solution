@@ -1,7 +1,7 @@
-# Meesho Dice Challenge 2025 - data science track
+# TrustSync: Holistic E-Commerce Product Integrity Solution
 
 ## Overview
-This repository contains the code for the Meesho DICE Challenge 2025 - Data Science Track submission. It includes solutions focused on product review enhancement, refund analysis, and seller product verification to address key challenges in the Meesho e-commerce ecosystem.
+The project provides an integrated suite of solutions addressing critical challenges in the e-commerce ecosystem, including product review enhancement, refund and delivery analysis, and seller product verification. By leveraging multi-source datasets and advanced machine learning models, TrustSync aims to improve product trust, customer experience, and seller authenticity across diverse e-commerce platforms.
 
 ---
 
@@ -35,4 +35,8 @@ This repository contains the code for the Meesho DICE Challenge 2025 - Data Scie
 - **Methodology:** Products are verified based on similarity scores exceeding a threshold; otherwise flagged for manual check.
 - **Architecture Diagram:** ![seller-verification](./images/seller-verification.png)
 
+
+### Data sets used -
+- [Flipkart product review dataset](https://www.kaggle.com/datasets/niraliivaghani/flipkart-dataset "Flipkart product review dataset on Kaggle")
+- [Olist Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce "Brazilian eCommerce dataset on Kaggle")
 
